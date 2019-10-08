@@ -1783,9 +1783,10 @@
   <section id="login">
     <div class="paralax-mf bg-image" style="background-image: url(images/slider/5s.jpg)">
       <div class="overlay-mf">
-        <div class="login-form">
+        <div class="login-form wow bounceInLeft" data-wow-duration="1000ms" data-wow-delay="100ms">
           <form action="/examples/actions/confirmation.php" method="post">
-            <img src="images/hs.jpg" alt="Avatar" class="avatar rounded-circle">
+            <img src="images/hs.jpg" alt="Avatar" class="avatar rounded-circle wow swing" data-wow-duration="1000ms"
+              data-wow-delay="1000ms">
             <h2 class="text-center">LOGIN</h2>
             <div class="form-group">
               <input type="text" class="form-control login-form-control" name="username" placeholder="Username"
@@ -1836,7 +1837,7 @@
                         <label class="control-label col-xs-2 requiredField" for="name">姓名 <span
                             class="asteriskField">*</span></label>
                         <div class="col-xs-10">
-                          <input class="form-control" id="name" name="name" type="text">
+                          <input class="form-control" id="name" name="name" type="text" required="required">
                         </div>
                       </div>
                       <div class="form-group wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -1892,7 +1893,7 @@
                         <label class="control-label col-xs-2 requiredField" for="student_ID">學號 <span
                             class="asteriskField">*</span></label>
                         <div class="col-xs-10">
-                          <input class="form-control" id="student_ID" name="student_ID" type="text">
+                          <input class="form-control" id="student_ID" name="student_ID" type="text" required="required">
                         </div>
                       </div>
                       <div class="form-group wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -1900,7 +1901,7 @@
                         <div class="col-xs-10">
                           <div class="input-group mb-3">
                             <input class="form-control" id="birthday" name="birthday" placeholder="YYYY-MM-DD"
-                              type="text">
+                              type="text" required="required">
                             <div class="input-group-addon">
                               <i class="fa fa-birthday-cake"></i>
                             </div>
@@ -1925,7 +1926,7 @@
                         <label class="control-label col-xs-2" for="mobile">手機</label>
                         <div class="col-xs-10">
                           <div class="input-group">
-                            <input class="form-control" id="mobile" name="mobile" type="text">
+                            <input class="form-control" id="mobile" name="mobile" type="text" required="required">
                             <div class="input-group-addon">
                               <i class="fa"></i>
                             </div>
@@ -1937,7 +1938,7 @@
                             class="asteriskField">*</span></label>
                         <div class="col-xs-10">
                           <div class="input-group">
-                            <input class="form-control" id="email" name="email" type="text">
+                            <input class="form-control" id="email" name="email" type="text" required="required">
                             <div class="input-group-addon">
                               <i class="fa fa-envelope"></i>
                             </div>
@@ -1948,7 +1949,7 @@
                         <label class="control-label col-xs-2 requiredField" for="password">密碼 <span
                             class="asteriskField">*</span></label>
                         <div class="col-xs-10">
-                          <input class="form-control" id="password" name="password" type="text">
+                          <input class="form-control" id="password" name="password" type="text" required="required">
                         </div>
                       </div>
                       <div class="form-group wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
