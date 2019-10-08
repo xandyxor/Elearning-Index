@@ -36,11 +36,28 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css" />
-  <style type=text/css> /*全部設定字體*/ body { font-family: 'Noto Sans TC' , sans-serif; } </style> <!-- preloader -->
-    <style>
-    /*************************
-    ********Loader**********
-    **************************/
+  
+  <!-- /*全部設定字體*/  -->
+  <style>
+    html,
+    body {
+      font-family: 'Noto Sans TC' , sans-serif;
+      background: #222222;
+      color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      overflow-x: hidden;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke: rgba(255, 255, 255, 0.01) 0.1px;
+      -webkit-text-stroke-width: 0.1px;
+    }
+  </style>
+  <!-- preloader -->
+  
+  <!-- Loader -->
+  <style>
     #preloader {
       position: fixed;
       top: 0;
@@ -430,10 +447,6 @@
 
   <!-- NAVBAR -->
   <style>
-    /*======================================
-    //--//-->   NAVBAR
-    ======================================*/
-
     .navbar-b {
       transition: all .5s ease-in-out;
       background-color: transparent;
@@ -634,146 +647,6 @@
     }
   </style>
 
-
-  <!-- <style>
-
-    #home-slider {
-      overflow: hidden;
-      position: relative;
-
-    }
-
-    #home-slider .caption {
-      position: absolute;
-      top: 50%;
-      margin-top: -104px;
-      left: 0;
-      right: 0;
-      text-align: center;
-      text-transform: uppercase;
-      z-index: 15;
-      font-size: 18px;
-      font-weight: 300;
-      color: #fff;
-    }
-
-    #home-slider .caption h1 {
-      color: #fff;
-      font-size: 60px;
-      font-weight: 700;
-      margin-bottom: 30px;
-    }
-
-    .caption .btn-start {
-      color: #fff;
-      font-size: 14px;
-      font-weight: 600;
-      padding: 14px 40px;
-      border: 1px solid #6e6d6c;
-      border-radius: 4px;
-      margin-top: 40px;
-    }
-
-    .caption .btn-start:hover {
-      color: #fff
-    }
-
-    .carousel-fade .carousel-inner .item {
-      opacity: 0;
-      -webkit-transition-property: opacity;
-      transition-property: opacity;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 2037px;
-    }
-
-    .carousel-fade .carousel-inner .item:after {
-      content: " ";
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: rgba(0, 0, 0, .7);
-    }
-
-    .carousel-fade .carousel-inner .active {
-      opacity: 1;
-    }
-
-    .carousel-fade .carousel-inner .active.left,
-    .carousel-fade .carousel-inner .active.right {
-      left: 0;
-      opacity: 0;
-      z-index: 1;
-    }
-
-    .carousel-fade .carousel-inner .next.left,
-    .carousel-fade .carousel-inner .prev.right {
-      opacity: 1;
-    }
-
-    .carousel-fade .carousel-control {
-      z-index: 2;
-    }
-
-    .left-control,
-    .right-control {
-      position: absolute;
-      top: 50%;
-      height: 51px;
-      width: 51px;
-      line-height: 48px;
-      border-radius: 50%;
-      border: 1px solid #fff;
-      z-index: 20;
-      font-size: 24px;
-      color: #fff;
-      text-align: center;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      transition: all 0.5s ease;
-    }
-
-    .left-control {
-      left: -51px
-    }
-
-    .right-control {
-      right: -51px;
-    }
-
-    .left-control:hover,
-    .right-control:hover {
-      color: #fff;
-    }
-
-    #home-slider:hover .left-control {
-      left: 30px
-    }
-
-    #home-slider:hover .right-control {
-      right: 30px
-    }
-
-    #home-slider .fa-angle-down {
-      position: absolute;
-      left: 50%;
-      bottom: 50px;
-      color: #fff;
-      display: inline-block;
-      width: 24px;
-      margin-left: -12px;
-      font-size: 24px;
-      line-height: 24px;
-      z-index: 999;
-      -webkit-animation: bounce 3000ms infinite;
-      animation: bounce 3000ms infinite;
-    }
-  </style> -->
-
   <style>
     .carousel-item {
       height: 100vh;
@@ -848,23 +721,6 @@
       font-size: 18px;
       font-weight: 300;
       color: #fff;
-    }
-  </style>
-
-  <style>
-    html,
-    body {
-      background: #222222;
-      ;
-      color: #f7f7f7;
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      overflow-x: hidden;
-      text-align: center;
-      -webkit-font-smoothing: antialiased;
-      -webkit-text-stroke: rgba(255, 255, 255, 0.01) 0.1px;
-      -webkit-text-stroke-width: 0.1px;
     }
   </style>
 
@@ -1089,79 +945,6 @@
     }
   </style>
 
-  <!-- <style>
-    /*======================================
-    INTRO
-    ======================================*/
-
-    .intro {
-      height: 100vh;
-      position: relative;
-      color: #fff;
-    }
-
-    .intro .intro-content {
-      text-align: center;
-      position: absolute;
-    }
-
-    .intro .overlay-itro {
-      background-color: rgba(0, 0, 0, 0.6);
-      position: absolute;
-      top: 0;
-      left: 0px;
-      padding: 0;
-      height: 100%;
-      width: 100%;
-      opacity: .9;
-    }
-
-    .intro .intro-title {
-      color: #fff;
-      font-weight: 600;
-      font-size: 3rem;
-    }
-
-    .intro .intro-subtitle {
-      font-size: 1.5rem;
-      font-weight: 300;
-    }
-
-    .intro .text-slider-items {
-      display: none;
-    }
-
-    .intro-single {
-      height: 350px;
-    }
-
-    .intro-single .intro-content {
-      margin-top: 30px;
-    }
-
-    .intro-single .intro-title {
-      text-transform: uppercase;
-      font-size: 3rem;
-    }
-
-    .intro-single .breadcrumb {
-      background-color: transparent;
-      color: #0078ff;
-    }
-
-    .intro-single .breadcrumb .breadcrumb-item:before {
-      color: #cde1f8;
-    }
-
-    .intro-single .breadcrumb .breadcrumb-item.active {
-      color: #cde1f8;
-    }
-
-    .intro-single .breadcrumb a {
-      color: #fff;
-    }
-  </style> -->
-
   <style>
     .bg-image {
       background-repeat: no-repeat;
@@ -1170,66 +953,9 @@
       background-position: center center;
     }
   </style>
+ 
+  <!-- Back to top button -->
   <style>
-    .socials .ico-circle {
-      height: 40px;
-      width: 40px;
-      font-size: 1.7rem;
-      border-radius: 50%;
-      line-height: 1.4;
-      margin: 0 15px 0 0;
-      box-shadow: 0 0 0 3px #0078ff;
-      transition: all 500ms ease;
-    }
-
-    .socials .ico-circle:hover {
-      background-color: #0078ff;
-      color: #fff;
-      box-shadow: 0 0 0 3px #cde1f8;
-      transition: all 500ms ease;
-    }
-
-    /*------/ Ul resect /------*/
-
-    .ul-resect,
-    .socials ul,
-    .list-ico,
-    .blog-wrapper .post-meta ul,
-    .box-comments .list-comments,
-    .widget-sidebar .list-sidebar,
-    .widget-tags ul {
-      list-style: none;
-      padding-left: 0;
-      margin-bottom: 0;
-    }
-
-    .list-ico {
-      line-height: 2;
-    }
-
-    .list-ico span {
-      color: #0078ff;
-      margin-right: 10px;
-    }
-
-    /*------/ Ico Circle /------*/
-
-    .ico-circle {
-      height: 100px;
-      width: 100px;
-      font-size: 2rem;
-      border-radius: 50%;
-      line-height: 1.55;
-      margin: 0 auto;
-      text-align: center;
-      box-shadow: 0 0 0 10px #0078ff;
-      display: block;
-    }
-  </style>
-
-  <style>
-    /* Back to top button */
-
     .back-to-top {
       position: fixed;
       display: none;
@@ -1253,9 +979,7 @@
     }
   </style>
 
-
-
-  <style type="text/css">
+  <style>
     .login-form-control {
       min-height: 41px;
       background: #fff;
@@ -1974,14 +1698,6 @@
                           admin@gms.nutc.edu.tw</a></li>
                       <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.nutc.edu.tw</a></li>
                     </ul>
-                    <!-- <div class="socials">
-                      <ul>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
-                      </ul>
-                    </div> -->
                   </div>
                 </div>
               </div>
@@ -2192,7 +1908,6 @@
 
   <!-- wow -->
   <script>
-
     /* WOW */
     var wow = new WOW(
       {
@@ -2203,7 +1918,6 @@
       }
     );
     wow.init();
-
 
     // Helper function for add element box list in WOW
     WOW.prototype.addBox = function (element) {
